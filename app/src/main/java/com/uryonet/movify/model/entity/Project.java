@@ -38,4 +38,16 @@ public class Project {
     public Project(String name) {
         this.name = name;
     }
+
+    public String getFull_name() {
+        return full_name;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public String getClone_url() {
+        return clone_url;
+    }
 }

@@ -29,4 +29,8 @@ public class User {
     public int following;
     public Date created_at;
     public Date updated_at;
+
+    public String getAvatar_url() {
+        return avatar_url;
+    }
 }
