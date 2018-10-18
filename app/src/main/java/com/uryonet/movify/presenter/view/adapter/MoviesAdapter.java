@@ -10,7 +10,6 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.uryonet.movify.R;
-import com.uryonet.movify.model.entity.Result;
 
 import java.util.List;
 
