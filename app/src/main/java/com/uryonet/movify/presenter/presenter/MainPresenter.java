@@ -25,6 +25,7 @@ public class MainPresenter implements MainContract.Presenter {
 
     @Override
     public void getProjects() {
+        getObservable().subscribeWith(getObserver());
     }
 
     public Observable<List<Project>> getObservable() {
